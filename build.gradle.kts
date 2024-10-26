@@ -1,6 +1,7 @@
 
 val kotlin_version: String by project
 val logback_version: String by project
+val jteVersion: String by project
 
 plugins {
     kotlin("jvm") version "2.0.21"
@@ -23,7 +24,7 @@ repositories {
 
 dependencies {
     implementation("io.ktor:ktor-server-jte")
-    implementation("gg.jte:jte-kotlin:3.1.13")
+    implementation("gg.jte:jte-kotlin:$jteVersion")
     implementation("io.ktor:ktor-client-core")
     implementation("io.ktor:ktor-server-core-jvm")
     implementation("io.ktor:ktor-server-netty-jvm")
