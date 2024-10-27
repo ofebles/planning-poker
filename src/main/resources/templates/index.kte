@@ -2,12 +2,8 @@
 @param name: String
 
 <html>
-<head>
-
-
-</head>
 <body>
-<h1>Hello, ${name}!</h1>
+<h1>Hello señor, ${name}!</h1>
 <h1>Hola, ${id}!</h1>
 </body>
 </html>
